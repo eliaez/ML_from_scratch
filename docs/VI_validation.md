@@ -56,7 +56,8 @@ Samples hyperparameter combinations randomly over defined ranges, more efficient
 Each parameter range is defined as `{[min, max], log_scale}`: use a single-element vector for fixed parameters, `log=true` for log-uniform sampling (suitable for learning rates, regularization), `log=false` for uniform sampling.
 
 ```cpp
-// Example: fixed param=0, log-uniform in [1,100], uniform in [2,5], uniform in ["l1", "l2", "elasticnet"] (bool haven't any influence on string params)
+// Example: fixed param=0, log-uniform in [1,100], uniform in [2,5], uniform in ["l1", "l2", "elasticnet"]
+// (bool haven't any influence on string params)
 std::vector<std::pair<std::vector<double>, bool>> ranges = {
     {{0},     false},
     {{1, 100}, true},
