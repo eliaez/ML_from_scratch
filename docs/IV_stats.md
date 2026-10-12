@@ -1,4 +1,4 @@
-# VI - Statistical Functions
+# IV - Statistical Functions
 
 Statistical toolkit for regression analysis, model validation, and inference. Provides both basic descriptive statistics (`mean`, `var`, `cov`, ...) and advanced diagnostic tests with optimized backends (`Naive` and `AVX2` by default). The module also extends to time series analysis through `Stats_TS` by enabling automatic `ARIMA` and `SARIMA` parameters identification, and to classification through `Stats_class` which covers everything from binary confusion metrics to multi-class inference.  All the following functions are automatically called during the regression pipeline but can also be used as standalone utilities.
 
