@@ -94,4 +94,4 @@ LU-based inversion involves both matrix decomposition (compute-intensive) and tr
 #### Note: 
 By default, the backend used will be the best performing one among the three customized implementations, excluding MKL and Eigen libraries. Moreover, to compile MKL, the MSVC option is available to avoid any issue with MinGW-GCC.
 
-To read the next part: [**VI - Statistical Functions**](/docs/VI_stats.md).
+To read the next part: [**VI - Statistical Functions**](/docs/IV_stats.md).
